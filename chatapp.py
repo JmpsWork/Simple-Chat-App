@@ -5,7 +5,7 @@ import socket
 from datetime import datetime
 
 
-name = 'Jmp'
+name = 'Somebody'
 discrim = ''.join([str(random.randint(1, 9)) for _ in range(0, 4)])
 userid = ''.join([str(random.randint(1, 9)) for _ in range(0, 12)])
 print(f'{name}#{discrim} - {userid}')
