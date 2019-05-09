@@ -66,7 +66,7 @@ class Client:
     def __init__(self, app: MainApp):
         self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.port = 6666
-        self.address = '192.168.2.25'
+        self.address = 'ADDRESS'
         self.addr = (self.address, self.port)
         self.id = self.connect()
         self.app = app
