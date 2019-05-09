@@ -6,7 +6,7 @@ class Server:
     def __init__(self):
         self.server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.port = 6666
-        self.address = '192.168.2.25'
+        self.address = 'ADDRESS'
         self.connections = {}
 
     def setup(self):
